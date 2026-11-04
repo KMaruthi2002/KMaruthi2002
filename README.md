@@ -5,13 +5,13 @@
 ```text
  ███╗   ███╗ ██╗  ██╗      maruthi@hoboken
  ████╗ ████║ ██║ ██╔╝      ───────────────────────────────────────────────────
- ██╔████╔██║ █████╔╝       OS ········ AI engineer · MS @ Stevens Institute of Technology
+ ██╔████╔██║ █████╔╝       OS ········ AI engineer · MS @ Stevens
  ██║╚██╔╝██║ ██╔═██╗       Host ······ PULSE.AI Lab · Stevens CPE
  ██║ ╚═╝ ██║ ██║  ██╗      Kernel ···· LLM agents · applied ML · production AI platforms
  ╚═╝     ╚═╝ ╚═╝  ╚═╝      Shell ····· build fast, measure before believing
-                           Route ····· Kadapa → Chennai → California → Hyderabad → Hoboken
+                           Route ····· Kadapa → Chennai → CA → Hyderabad → Hoboken
                            Packages ·· fintel, qml-oncology  (PyPI)
-                           GPU ······· AMD MI300X · 2.93× measured, one change at a time
+                           GPU ······· AMD MI300X · 2.93× measured, honestly
                            Theme ····· so much more is coming
 ```
 
