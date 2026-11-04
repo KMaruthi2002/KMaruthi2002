@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace">
+  <title>Maruthi Kunchala — AI engineer</title>
+  <defs>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow2" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0f1a26" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity="0.22"/>
+    </pattern>
+    <radialGradient id="vig" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#0d1621"/>
+      <stop offset="1" stop-color="#05070b"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00f0ff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#0aa6c0"/>
+      <stop offset="1" stop-color="#00f0ff"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="80" y="208" height="24" width="0"><animate attributeName="width" values="0;0;90;90;0;0" keyTimes="0;0.03;0.07;0.92;0.93;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="80" y="236" height="24" width="0"><animate attributeName="width" values="0;0;590;590;0;0" keyTimes="0;0.09;0.20;0.92;0.93;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="80" y="264" height="24" width="0"><animate attributeName="width" values="0;0;135;135;0;0" keyTimes="0;0.225;0.27;0.92;0.93;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="80" y="292" height="24" width="0"><animate attributeName="width" values="0;0;490;490;0;0" keyTimes="0;0.29;0.39;0.92;0.93;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="80" y="320" height="24" width="0"><animate attributeName="width" values="0;0;165;165;0;0" keyTimes="0;0.41;0.46;0.92;0.93;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c6"><rect x="80" y="348" height="24" width="0"><animate attributeName="width" values="0;0;620;620;0;0" keyTimes="0;0.475;0.60;0.92;0.93;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="ticker"><rect x="0" y="404" width="1200" height="36"/></clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="440" fill="url(#vig)"/>
+  <rect width="1200" height="440" fill="url(#grid)"/>
+  <rect width="1200" height="60" fill="url(#beam)">
+    <animate attributeName="y" values="-60;440" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- HUD corner brackets -->
+  <g fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.85">
+    <path d="M22 46V22H46"/><path d="M1154 22H1178V46"/>
+    <path d="M22 394V418H46"/><path d="M1178 394V418H1154"/>
+  </g>
+
+  <!-- top status bar -->
+  <g font-size="11" letter-spacing="2" fill="#5b7a8c">
+    <text x="60" y="36">SYS // KMARUTHI2002</text>
+    <text x="300" y="36">HOBOKEN, NJ · 40.74°N 74.03°W</text>
+    <text x="1140" y="36" text-anchor="end" fill="#ff2d95">LIVE</text>
+    <circle cx="1100" cy="32" r="4" fill="#ff2d95" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1070" cy="32" r="3" fill="#39ff14"><animate attributeName="opacity" values="1;1;0.3;1" keyTimes="0;0.7;0.8;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1055" cy="32" r="3" fill="#00f0ff"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="32" r="3" fill="#f2a93b"><animate attributeName="opacity" values="1;0.3;1" dur="1.7s" repeatCount="indefinite"/></circle>
+  </g>
+  <line x1="60" y1="48" x2="1140" y2="48" stroke="#13202c" stroke-width="1"/>
+
+  <!-- name with glitch copies -->
+  <g font-size="52" font-weight="700" letter-spacing="3">
+    <text x="60" y="110" fill="#00f0ff" opacity="0" transform="translate(-3 0)">MARUTHI KUNCHALA
+      <animate attributeName="opacity" values="0;0;0.9;0;0;0;0.8;0;0;0.7;0;0" keyTimes="0;0.28;0.29;0.31;0.55;0.56;0.57;0.59;0.80;0.81;0.82;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="60" y="110" fill="#ff2d95" opacity="0" transform="translate(3 1)">MARUTHI KUNCHALA
+      <animate attributeName="opacity" values="0;0;0.9;0;0;0;0.8;0;0;0.7;0;0" keyTimes="0;0.29;0.30;0.32;0.56;0.57;0.58;0.60;0.81;0.82;0.83;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="60" y="110" fill="#e6f7ff" filter="url(#glow)">MARUTHI KUNCHALA</text>
+  </g>
+  <text x="62" y="140" font-size="14" letter-spacing="4" fill="#00f0ff">AI ENGINEER  //  LLM AGENTS · APPLIED ML · SYSTEMS THAT MEASURE THEMSELVES</text>
+
+  <!-- terminal window -->
+  <rect x="60" y="168" width="700" height="236" rx="8" fill="#0b1118" stroke="#1b2a38"/>
+  <rect x="60" y="168" width="700" height="28" rx="8" fill="#101925"/>
+  <rect x="60" y="188" width="700" height="8" fill="#101925"/>
+  <circle cx="78" cy="182" r="5" fill="#ff5f57"/><circle cx="96" cy="182" r="5" fill="#febc2e"/><circle cx="114" cy="182" r="5" fill="#28c840"/>
+  <text x="410" y="186" font-size="11" fill="#5b7a8c" text-anchor="middle">maruthi@hoboken: ~ — zsh</text>
+
+  <g font-size="15" fill="#c9d6e2">
+    <g clip-path="url(#c1)"><text x="80" y="226"><tspan fill="#39ff14">$</tspan> whoami</text></g>
+    <g clip-path="url(#c2)"><text x="80" y="254"><tspan fill="#00f0ff">→</tspan> <tspan fill="#e6f7ff" font-weight="700">Maruthi Kunchala</tspan> · AI engineer · MS @ Stevens · PULSE.AI Lab</text></g>
+    <g clip-path="url(#c3)"><text x="80" y="282"><tspan fill="#39ff14">$</tspan> cat ./focus</text></g>
+    <g clip-path="url(#c4)"><text x="80" y="310"><tspan fill="#00f0ff">→</tspan> LLM agents · applied ML · production AI platforms</text></g>
+    <g clip-path="url(#c5)"><text x="80" y="338"><tspan fill="#39ff14">$</tspan> ./status --now</text></g>
+    <g clip-path="url(#c6)"><text x="80" y="366"><tspan fill="#39ff14">[OK]</tspan> build fast   <tspan fill="#39ff14">[OK]</tspan> measure before believing   <tspan fill="#f2a93b">[RUN]</tspan> shipping…</text></g>
+    <rect x="702" y="353" width="9" height="17" fill="#00f0ff" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.60;0.62;0.64;0.66;0.68;0.70;0.72;0.74;0.76;0.78;0.80;0.82;0.84;0.86;0.88;0.90;0.92;1" dur="16s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- right: readouts -->
+  <g font-size="11" letter-spacing="2">
+    <text x="800" y="190" fill="#5b7a8c">TELEMETRY</text>
+    <line x1="800" y1="198" x2="1140" y2="198" stroke="#13202c"/>
+    <text x="800" y="222" fill="#5b7a8c">LOC</text><text x="848" y="222" fill="#c9d6e2">HOBOKEN NJ</text>
+    <text x="800" y="242" fill="#5b7a8c">MODE</text><text x="848" y="242" fill="#c9d6e2">SHIP</text>
+    <text x="800" y="262" fill="#5b7a8c">LINK</text><text x="848" y="262" fill="#39ff14">● UP<animate attributeName="opacity" values="1;1;0.4;1" keyTimes="0;0.8;0.9;1" dur="2.5s" repeatCount="indefinite"/></text>
+    <text x="800" y="282" fill="#5b7a8c">HEAT</text><text x="848" y="282" fill="#f2a93b">▮▮▮▮<tspan fill="#2a3a4a">▯</tspan></text>
+  </g>
+
+  <!-- ring -->
+  <g transform="translate(1040 255)">
+    <circle r="62" fill="none" stroke="#00f0ff" stroke-width="2" stroke-dasharray="6 10" opacity="0.9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="50" fill="none" stroke="#ff2d95" stroke-width="1.5" stroke-dasharray="2 12" opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="40" fill="none" stroke="#13202c" stroke-width="1"/>
+    <circle r="62" fill="none" stroke="#00f0ff" stroke-width="2" opacity="0">
+      <animate attributeName="r" values="40;75" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text y="6" font-size="24" font-weight="700" fill="#e6f7ff" text-anchor="middle" filter="url(#glow)">2.93×</text>
+    <text y="24" font-size="8" letter-spacing="2" fill="#5b7a8c" text-anchor="middle">MEASURED · MI300X</text>
+  </g>
+
+  <!-- bars -->
+  <g transform="translate(800 392)">
+    <g transform="translate(0 0)"><rect y="-60" width="14" height="60" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0.5;1 1;1 0.7;1 0.5" dur="3.1s" repeatCount="indefinite"/></rect></g>
+    <g transform="translate(22 0)"><rect y="-60" width="14" height="60" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0.9;1 0.4;1 0.8;1 0.9" dur="2.6s" repeatCount="indefinite"/></rect></g>
+    <g transform="translate(44 0)"><rect y="-60" width="14" height="60" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0.3;1 0.8;1 0.5;1 0.3" dur="3.7s" repeatCount="indefinite"/></rect></g>
+    <g transform="translate(66 0)"><rect y="-60" width="14" height="60" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0.7;1 1;1 0.6;1 0.7" dur="2.2s" repeatCount="indefinite"/></rect></g>
+    <g transform="translate(88 0)"><rect y="-60" width="14" height="60" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0.5;1 0.3;1 0.9;1 0.5" dur="3.4s" repeatCount="indefinite"/></rect></g>
+    <g transform="translate(110 0)"><rect y="-60" width="14" height="60" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0.8;1 0.5;1 1;1 0.8" dur="2.9s" repeatCount="indefinite"/></rect></g>
+    <g transform="translate(132 0)"><rect y="-60" width="14" height="60" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0.4;1 0.9;1 0.6;1 0.4" dur="3.9s" repeatCount="indefinite"/></rect></g>
+    <line x1="-4" y1="2" x2="150" y2="2" stroke="#13202c"/>
+    <text x="0" y="-70" font-size="9" letter-spacing="2" fill="#5b7a8c">THROUGHPUT</text>
+  </g>
+
+  <!-- ticker -->
+  <g clip-path="url(#ticker)" font-size="11" letter-spacing="3" fill="#5b7a8c">
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="34s" repeatCount="indefinite"/>
+      <text x="0" y="426" textLength="1200" lengthAdjust="spacing">ROCKET  ·  EIDOS  ·  KEPLER  ·  REWIND  ·  QUANTRIAGE  ·  FINTEL  ·  PYEXPLAIN  ·  APEX // TELEMETRY  ·  UNIVERSAL-LLM-SKILLS  ·  </text>
+      <text x="1200" y="426" textLength="1200" lengthAdjust="spacing">ROCKET  ·  EIDOS  ·  KEPLER  ·  REWIND  ·  QUANTRIAGE  ·  FINTEL  ·  PYEXPLAIN  ·  APEX // TELEMETRY  ·  UNIVERSAL-LLM-SKILLS  ·  </text>
+    </g>
+  </g>
+
+  <!-- scanlines on top -->
+  <rect width="1200" height="440" fill="url(#scan)" pointer-events="none"/>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-hud.svg",
+  "backgroundColor": "#070a0f",
+  "foregroundColor": "#9fb3c8",
+  "strongColor": "#00f0ff",
+  "weakColor": "#2a3a4a",
+  "radarColor": "#ff2d95",
+  "growingAnimation": true,
+  "contribColors": ["#0e1620", "#0a3a4a", "#0b6b80", "#0aa6c0", "#00f0ff"]
+}

@@ -1,0 +1,34 @@
+name: 3d-contrib
+
+on:
+  schedule:
+    - cron: "47 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/3d-contrib.yml", "conf/3d-contrib.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  graph:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render the 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: conf/3d-contrib.json
+
+      - name: Commit the graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          git commit -m "chore: refresh 3D contribution graph" || { echo "nothing to commit"; exit 0; }
+          git pull --rebase origin main
+          git push

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace">
+  <title>So much more is coming.</title>
+  <defs>
+    <filter id="g" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="t"><rect x="421" y="40" height="40" width="0"><animate attributeName="width" values="0;0;358;358;0;0" keyTimes="0;0.05;0.35;0.88;0.9;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity="0.22"/></pattern>
+  </defs>
+  <rect width="1200" height="120" fill="#070a0f"/>
+  <g fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.85">
+    <path d="M22 40V16H46"/><path d="M1154 16H1178V40"/><path d="M22 80V104H46"/><path d="M1178 80V104H1154"/>
+  </g>
+  <line x1="60" y1="60" x2="391" y2="60" stroke="#13202c"/>
+  <line x1="809" y1="60" x2="1140" y2="60" stroke="#13202c"/>
+  <g clip-path="url(#t)"><text x="600" y="69" font-size="26" fill="#e6f7ff" text-anchor="middle" filter="url(#g)">So much more is coming.</text></g>
+  <rect x="785" y="46" width="12" height="28" fill="#00f0ff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  <text x="600" y="98" font-size="10" letter-spacing="4" fill="#5b7a8c" text-anchor="middle">// END OF TRANSMISSION</text>
+  <rect width="1200" height="120" fill="url(#scan)"/>
+</svg>
