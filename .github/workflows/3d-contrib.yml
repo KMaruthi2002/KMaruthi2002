@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+# Overlapping runs (push + manual/scheduled) race to commit the same SVGs.
+concurrency:
+  group: 3d-contrib
+  cancel-in-progress: false
+
 jobs:
   graph:
     runs-on: ubuntu-latest
@@ -31,7 +36,9 @@ jobs:
           git add -A profile-3d-contrib
           git commit -m "chore: refresh 3D contribution graph" || { echo "nothing to commit"; exit 0; }
           for attempt in 1 2 3 4 5; do
-            git pull --rebase origin main && git push && exit 0
+            # The graph is fully regenerated, so on a conflict keep this run's SVGs.
+            git pull --rebase -X theirs origin main && git push && exit 0
+            git rebase --abort 2>/dev/null || true
             echo "push attempt $attempt failed, retrying"; sleep $((attempt * 5))
           done
           exit 1
