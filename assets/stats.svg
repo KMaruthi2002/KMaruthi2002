@@ -9,17 +9,17 @@
 <rect x="0.5" y="0.5" width="1199" height="299" rx="12" fill="none" stroke="#1b2a38"/>
 <g fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.85"><path d="M18 36V18H36"/><path d="M1164 18H1182V36"/><path d="M18 264V282H36"/><path d="M1182 264V282H1164"/></g>
 <text x="48" y="40" font-size="11" letter-spacing="3" fill="#5b7a8c">TELEMETRY // KMARUTHI2002</text>
-<text x="1152" y="40" font-size="10" letter-spacing="2" fill="#5b7a8c" text-anchor="end">UPDATED 2026-11-04 17:56 UTC · PUBLIC DATA</text>
+<text x="1152" y="40" font-size="10" letter-spacing="2" fill="#5b7a8c" text-anchor="end">UPDATED 2026-11-05 14:27 UTC · PUBLIC DATA</text>
 <line x1="48" y1="52" x2="1152" y2="52" stroke="#13202c"/>
-<text x="48" y="100" font-size="30" font-weight="700" fill="#00f0ff" filter="url(#g)">226</text>
+<text x="48" y="100" font-size="30" font-weight="700" fill="#00f0ff" filter="url(#g)">248</text>
 <text x="48" y="118" font-size="9" letter-spacing="2" fill="#5b7a8c">CONTRIBUTIONS · 365D</text>
-<text x="238" y="100" font-size="30" font-weight="700" fill="#00f0ff" filter="url(#g)">211</text>
+<text x="238" y="100" font-size="30" font-weight="700" fill="#00f0ff" filter="url(#g)">231</text>
 <text x="238" y="118" font-size="9" letter-spacing="2" fill="#5b7a8c">COMMITS · 365D</text>
 <text x="48" y="168" font-size="30" font-weight="700" fill="#f2a93b" filter="url(#g)">1</text>
 <text x="48" y="186" font-size="9" letter-spacing="2" fill="#5b7a8c">STARS</text>
 <text x="238" y="168" font-size="30" font-weight="700" fill="#f2a93b" filter="url(#g)">30</text>
 <text x="238" y="186" font-size="9" letter-spacing="2" fill="#5b7a8c">PUBLIC REPOS</text>
-<text x="48" y="236" font-size="30" font-weight="700" fill="#ff2d95" filter="url(#g)">2d</text>
+<text x="48" y="236" font-size="30" font-weight="700" fill="#ff2d95" filter="url(#g)">3d</text>
 <text x="48" y="254" font-size="9" letter-spacing="2" fill="#5b7a8c">CURRENT STREAK</text>
 <text x="238" y="236" font-size="30" font-weight="700" fill="#ff2d95" filter="url(#g)">3d</text>
 <text x="238" y="254" font-size="9" letter-spacing="2" fill="#5b7a8c">LONGEST STREAK</text>
@@ -27,10 +27,10 @@
 <text x="450" y="70" font-size="9" letter-spacing="2" fill="#5b7a8c">LAST 56 DAYS · PEAK 43/DAY</text>
 <line x1="450" y1="240" x2="780" y2="240" stroke="#13202c"/>
 <g transform="translate(450.0 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.00s" fill="freeze"/></rect></g>
-<g transform="translate(455.9 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.02s" fill="freeze"/></rect></g>
-<g transform="translate(461.8 240)"><rect x="0.5" y="-37" width="4.7" height="37" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.04s" fill="freeze"/></rect></g>
-<g transform="translate(467.7 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.06s" fill="freeze"/></rect></g>
-<g transform="translate(473.6 240)"><rect x="0.5" y="-7" width="4.7" height="7" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.08s" fill="freeze"/></rect></g>
+<g transform="translate(455.9 240)"><rect x="0.5" y="-37" width="4.7" height="37" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.02s" fill="freeze"/></rect></g>
+<g transform="translate(461.8 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.04s" fill="freeze"/></rect></g>
+<g transform="translate(467.7 240)"><rect x="0.5" y="-7" width="4.7" height="7" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.06s" fill="freeze"/></rect></g>
+<g transform="translate(473.6 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.08s" fill="freeze"/></rect></g>
 <g transform="translate(479.5 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.10s" fill="freeze"/></rect></g>
 <g transform="translate(485.4 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.12s" fill="freeze"/></rect></g>
 <g transform="translate(491.2 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.14s" fill="freeze"/></rect></g>
@@ -51,11 +51,11 @@
 <g transform="translate(579.6 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.44s" fill="freeze"/></rect></g>
 <g transform="translate(585.5 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.46s" fill="freeze"/></rect></g>
 <g transform="translate(591.4 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.48s" fill="freeze"/></rect></g>
-<g transform="translate(597.3 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.50s" fill="freeze"/></rect></g>
-<g transform="translate(603.2 240)"><rect x="0.5" y="-4" width="4.7" height="4" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.52s" fill="freeze"/></rect></g>
+<g transform="translate(597.3 240)"><rect x="0.5" y="-4" width="4.7" height="4" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.50s" fill="freeze"/></rect></g>
+<g transform="translate(603.2 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.52s" fill="freeze"/></rect></g>
 <g transform="translate(609.1 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.54s" fill="freeze"/></rect></g>
-<g transform="translate(615.0 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.56s" fill="freeze"/></rect></g>
-<g transform="translate(620.9 240)"><rect x="0.5" y="-11" width="4.7" height="11" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.58s" fill="freeze"/></rect></g>
+<g transform="translate(615.0 240)"><rect x="0.5" y="-11" width="4.7" height="11" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.56s" fill="freeze"/></rect></g>
+<g transform="translate(620.9 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.58s" fill="freeze"/></rect></g>
 <g transform="translate(626.8 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.60s" fill="freeze"/></rect></g>
 <g transform="translate(632.7 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.62s" fill="freeze"/></rect></g>
 <g transform="translate(638.6 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.64s" fill="freeze"/></rect></g>
@@ -63,39 +63,39 @@
 <g transform="translate(650.4 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.68s" fill="freeze"/></rect></g>
 <g transform="translate(656.2 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.70s" fill="freeze"/></rect></g>
 <g transform="translate(662.1 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.72s" fill="freeze"/></rect></g>
-<g transform="translate(668.0 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.74s" fill="freeze"/></rect></g>
-<g transform="translate(673.9 240)"><rect x="0.5" y="-11" width="4.7" height="11" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.76s" fill="freeze"/></rect></g>
+<g transform="translate(668.0 240)"><rect x="0.5" y="-11" width="4.7" height="11" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.74s" fill="freeze"/></rect></g>
+<g transform="translate(673.9 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.76s" fill="freeze"/></rect></g>
 <g transform="translate(679.8 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.78s" fill="freeze"/></rect></g>
 <g transform="translate(685.7 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.80s" fill="freeze"/></rect></g>
 <g transform="translate(691.6 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.82s" fill="freeze"/></rect></g>
 <g transform="translate(697.5 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.84s" fill="freeze"/></rect></g>
 <g transform="translate(703.4 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.86s" fill="freeze"/></rect></g>
 <g transform="translate(709.3 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.88s" fill="freeze"/></rect></g>
-<g transform="translate(715.2 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.90s" fill="freeze"/></rect></g>
-<g transform="translate(721.1 240)"><rect x="0.5" y="-4" width="4.7" height="4" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.92s" fill="freeze"/></rect></g>
-<g transform="translate(727.0 240)"><rect x="0.5" y="-97" width="4.7" height="97" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.94s" fill="freeze"/></rect></g>
-<g transform="translate(732.9 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.96s" fill="freeze"/></rect></g>
-<g transform="translate(738.8 240)"><rect x="0.5" y="-67" width="4.7" height="67" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.98s" fill="freeze"/></rect></g>
-<g transform="translate(744.6 240)"><rect x="0.5" y="-160" width="4.7" height="160" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.00s" fill="freeze"/></rect></g>
-<g transform="translate(750.5 240)"><rect x="0.5" y="-41" width="4.7" height="41" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.02s" fill="freeze"/></rect></g>
+<g transform="translate(715.2 240)"><rect x="0.5" y="-4" width="4.7" height="4" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.90s" fill="freeze"/></rect></g>
+<g transform="translate(721.1 240)"><rect x="0.5" y="-97" width="4.7" height="97" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.92s" fill="freeze"/></rect></g>
+<g transform="translate(727.0 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.94s" fill="freeze"/></rect></g>
+<g transform="translate(732.9 240)"><rect x="0.5" y="-67" width="4.7" height="67" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.96s" fill="freeze"/></rect></g>
+<g transform="translate(738.8 240)"><rect x="0.5" y="-160" width="4.7" height="160" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="0.98s" fill="freeze"/></rect></g>
+<g transform="translate(744.6 240)"><rect x="0.5" y="-41" width="4.7" height="41" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.00s" fill="freeze"/></rect></g>
+<g transform="translate(750.5 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.02s" fill="freeze"/></rect></g>
 <g transform="translate(756.4 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.04s" fill="freeze"/></rect></g>
-<g transform="translate(762.3 240)"><rect x="0.5" y="-2" width="4.7" height="2" fill="#13202c"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.06s" fill="freeze"/></rect></g>
-<g transform="translate(768.2 240)"><rect x="0.5" y="-4" width="4.7" height="4" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.08s" fill="freeze"/></rect></g>
-<g transform="translate(774.1 240)"><rect x="0.5" y="-19" width="4.7" height="19" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.10s" fill="freeze"/></rect></g>
-<text x="450" y="256" font-size="9" fill="#5b7a8c">SEP 10</text>
-<text x="780" y="256" font-size="9" fill="#5b7a8c" text-anchor="end">NOV 04</text>
+<g transform="translate(762.3 240)"><rect x="0.5" y="-4" width="4.7" height="4" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.06s" fill="freeze"/></rect></g>
+<g transform="translate(768.2 240)"><rect x="0.5" y="-60" width="4.7" height="60" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.08s" fill="freeze"/></rect></g>
+<g transform="translate(774.1 240)"><rect x="0.5" y="-41" width="4.7" height="41" fill="url(#bar)"><animateTransform attributeName="transform" type="scale" values="1 0;1 1" dur="0.9s" begin="1.10s" fill="freeze"/></rect></g>
+<text x="450" y="256" font-size="9" fill="#5b7a8c">SEP 11</text>
+<text x="780" y="256" font-size="9" fill="#5b7a8c" text-anchor="end">NOV 05</text>
 <text x="840" y="70" font-size="9" letter-spacing="2" fill="#5b7a8c">LANGUAGES · PUBLIC REPOS · NOTEBOOKS EXCLUDED</text>
 <text x="840" y="96" font-size="11" fill="#9fb3c8">Python</text>
-<text x="1152" y="96" font-size="11" fill="#e6f7ff" text-anchor="end">59.9%</text>
+<text x="1152" y="96" font-size="11" fill="#e6f7ff" text-anchor="end">59.7%</text>
 <rect x="840" y="102" width="312" height="5" rx="2.5" fill="#13202c"/>
-<rect x="840" y="102" width="187" height="5" rx="2.5" fill="#3572A5"><animate attributeName="width" values="0;187" dur="1.2s" begin="0.00s" fill="freeze"/></rect>
+<rect x="840" y="102" width="186" height="5" rx="2.5" fill="#3572A5"><animate attributeName="width" values="0;186" dur="1.2s" begin="0.00s" fill="freeze"/></rect>
 <text x="840" y="130" font-size="11" fill="#9fb3c8">JavaScript</text>
-<text x="1152" y="130" font-size="11" fill="#e6f7ff" text-anchor="end">32.8%</text>
+<text x="1152" y="130" font-size="11" fill="#e6f7ff" text-anchor="end">32.4%</text>
 <rect x="840" y="136" width="312" height="5" rx="2.5" fill="#13202c"/>
-<rect x="840" y="136" width="102" height="5" rx="2.5" fill="#f1e05a"><animate attributeName="width" values="0;102" dur="1.2s" begin="0.15s" fill="freeze"/></rect>
+<rect x="840" y="136" width="101" height="5" rx="2.5" fill="#f1e05a"><animate attributeName="width" values="0;101" dur="1.2s" begin="0.15s" fill="freeze"/></rect>
 <text x="840" y="164" font-size="11" fill="#9fb3c8">TypeScript</text>
-<text x="1152" y="164" font-size="11" fill="#e6f7ff" text-anchor="end">7.3%</text>
+<text x="1152" y="164" font-size="11" fill="#e6f7ff" text-anchor="end">7.9%</text>
 <rect x="840" y="170" width="312" height="5" rx="2.5" fill="#13202c"/>
-<rect x="840" y="170" width="23" height="5" rx="2.5" fill="#3178c6"><animate attributeName="width" values="0;23" dur="1.2s" begin="0.30s" fill="freeze"/></rect>
+<rect x="840" y="170" width="25" height="5" rx="2.5" fill="#3178c6"><animate attributeName="width" values="0;25" dur="1.2s" begin="0.30s" fill="freeze"/></rect>
 <rect width="1200" height="300" rx="12" fill="url(#scan)"/>
 </svg>
